@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    top: 0;
+    left: 0;
+}
+.header #image1{
+    position: relative;
+    width: 100%;
+} 
+.header .white-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+.header .img-text1{
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    z-index: 2;
+    color: white;
+
+}
+.header #image2{
+    position: relative;
+    width: 100%;
+}
+.header .info-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+.header .img-text1{
+    position: absolute;
+    top: 80%;
+    z-index: 2;
+    color: white;
+}
+.header .img-text2{
+    position: absolute;
+    left: 15%;
+    top: 80%;
+    z-index: 2;
+    color: white;
+}
+.header .img-text3{
+    position: absolute;
+    left: 15%;
+    top: 75%;
+    z-index: 2;
+    color: white;
+}
+
+.deepthi #image3{
+    position: relative;
+    width: 100%;
+}
+.deepthi .dark-overlay{
+    position: absolute;
+    margin-top: -400px;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
+}
+.deepthi .img-text4{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    z-index: 2;
+    color: white;
+}
